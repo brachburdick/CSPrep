@@ -2,38 +2,42 @@
 // ex: addTwo(5); -> 7
 // ex: addTwo(6); -> 8
 const addTwo = (number) => {
-	//CODE HERE
+	return number+2
 
 }
 
 // Adds the two inputted numbers together
 // ex: add(5, 10); -> 15
 const add = (num1, num2) => {
-	//CODE HERE
+	return num1+num2
 
 }
+
+const funcdfsdslfpjfd = () => console.log('test')
 
 // Multiplies the inputted number by 2
 // ex: multiplyByTwo(5); -> 10
 // ex: multiplyByTwo(6); -> 12
 const multiplyByTwo = (numero) => {
-	//CODE HERE
+	return numero*2
 
 }
 
+
+/// SOME RANDOM COMMENT
 
 // Multplies the two inputted numbers together
 // ex: multiply(1,2); -> 2
 // ex: multiply(2,2); -> 4
 const multiply = (val1, val2) => {
-	//CODE HERE
+	return val1*val2
 
 }
 
 // Returns the square of the inputted number
 // ex: square(5); -> 25
 const square = (value) => {
-	//CODE HERE
+	return value*value
 
 }
 
@@ -43,7 +47,8 @@ const square = (value) => {
 // ex: isOdd(4); -> false
 // ex: isOdd(5); -> true
 const isOdd = (num) => {
-	//CODE HERE
+	if (num%2 === 0) return false
+	else {return true}
 
 }
 
